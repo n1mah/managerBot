@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use Telegram\Bot\Laravel\Facades\Telegram;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,3 +18,11 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+Route::post('bot/sendmessage', function() {
+    Telegram::sendMessage([
+        'chat_id' => 'RECIPIENT_CHAT_ID',
+        'text' => 'Hello world!'
+    ]);
+    return;
+});
+
