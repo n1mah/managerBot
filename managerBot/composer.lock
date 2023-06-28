@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "928fbd8c2379041b827cf6784789ab5d",
+    "content-hash": "db7a36ed7e5039133470bbc7d4e96204",
     "packages": [
         {
             "name": "brick/math",
@@ -60,6 +60,48 @@
                 }
             ],
             "time": "2023-01-15T23:15:59+00:00"
+        },
+        {
+            "name": "davtur19/turibot",
+            "version": "1.23",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/davtur19/TuriBot.git",
+                "reference": "b6196c01543ea41007e40f200b63ea9aa22eb40e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/davtur19/TuriBot/zipball/b6196c01543ea41007e40f200b63ea9aa22eb40e",
+                "reference": "b6196c01543ea41007e40f200b63ea9aa22eb40e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": "^7.1 | ^8"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "TuriBot\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "davtur19",
+                    "email": "dav.tur19@gmail.com"
+                }
+            ],
+            "description": "A simple way to communicate with Telegram APIs in PHP.",
+            "support": {
+                "issues": "https://github.com/davtur19/TuriBot/issues",
+                "source": "https://github.com/davtur19/TuriBot/tree/1.23"
+            },
+            "time": "2023-04-25T14:42:11+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
